@@ -1,0 +1,38 @@
+.container {
+  height: 300px;
+  width: 210px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+}
+
+.inner {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  position: relative;
+}
+.inner > img {
+  height: 11rem;
+  width: 11rem;
+}
+.inner > p {
+  font-size: 0.9rem;
+}
+.inner > span {
+  color: orangered;
+}
+#btn_addCart {
+  width: 100%;
+  padding: 0.4rem;
+}
+.block_modCart {
+  display: flex;
+  justify-content: space-around;
+}
+.btn_modCart {
+  padding: 0.2rem;
+  width: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
