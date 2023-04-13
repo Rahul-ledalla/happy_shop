@@ -6,3 +6,21 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.productlist {
+  margin: 4rem;
+}
+.cart-container {
+  position: fixed;
+  top: 17%;
+  right: 0%;
+  z-index: 10;
+}
+.btn {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

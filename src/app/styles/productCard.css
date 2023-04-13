@@ -22,6 +22,12 @@
 .inner > span {
   color: orangered;
 }
+#qty-in-cart {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 0.7rem;
+}
 #btn_addCart {
   width: 100%;
   padding: 0.4rem;
